@@ -1,49 +1,42 @@
 #numeros {
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
+    width: 300px;
+    margin: auto;
 }
 
 .botao {
-    width: 50px;
-    height: 50px
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 50px
 }
 
 #telinha {
-    background-color: lightgrey;
-    width: 148px;
-    height: 40px;
-    border: 1px solid grey
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 h1 {
-    margin: 0px;
-    text-align: end;
     padding-right: 10px;
+    font-size: 50px;
+    color: black;
 }
 
 .botao-decimal {
-    font-size: 23px;
+    font-size: 50 ;
     display: flex;
     justify-content: center;
-    align-items: stretch;
-}
-
-.botao-historico {
-    width: 150px;
-    height: 20px;
-}
-
-.div-historico {
-    width: 150px;
-    height: 300px;
-    background-color: darkgrey;
 }
 
 body {
-    display: flex;
-}
-
-.mostrar {
-    display: none;
+    background-color: black;
+    margin-top: 100px;
 }
