@@ -1,9 +1,7 @@
-let num = ''
 let tela = document.querySelector('h1')
 
 let itemDentro = (item) => {
-    if(num.length < 11){
-        num += item
+    if(tela.textContent.length<11){
         tela.textContent += item
     }
 }
@@ -61,11 +59,10 @@ function subtracao(){
 }
 
 function calcular(){
-    tela.textContent = eval(num)
+    tela.textContent = eval(tela.textContent)
 }
 
 
 function resetar(){
     tela.textContent = ''
-    num = ''
 }
